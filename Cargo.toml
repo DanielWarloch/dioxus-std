@@ -26,12 +26,12 @@ dioxus-util = { path = "packages/util", version = "0.7.0-alpha.3" }
 dioxus-window = { path = "packages/window", version = "0.7.0-alpha.3" }
 
 # Dioxus
-dioxus = "=0.7.0-alpha.3"
-dioxus-signals = "=0.7.0-alpha.3"
-dioxus-desktop = "=0.7.0-alpha.3"
-dioxus-config-macro = "=0.7.0-alpha.3"
-
-[patch.crates-io]
+# dioxus = "=0.7.0-alpha.3"
+# dioxus-signals = "=0.7.0-alpha.3"
+# dioxus-desktop = "=0.7.0-alpha.3"
+# dioxus-config-macro = "=0.7.0-alpha.3"
+#
+# [patch.crates-io]
 dioxus = { git = "https://github.com/DanielWarloch/dioxus", branch = "main" }
 dioxus-signals = { git = "https://github.com/DanielWarloch/dioxus", branch = "main" }
 dioxus-desktop = { git = "https://github.com/DanielWarloch/dioxus", branch = "main" }
